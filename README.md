@@ -64,13 +64,13 @@
 
 the site is deployed below:
 
-<a href="https://budget-app-render-jjqs.onrender.com/"> Check out the Live Demo here</a>
+<a href=" "> Check out the Live Demo here</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Video
 
-<a href="https://www.loom.com/share/d057db61590d4b59ac098cbb6433261b?sid=eb8150e6-e9cf-4d54-b8c9-5ff5e36328e1">Demonstration video</a>
+<a href=" ">Illustration video</a>
 
 <!-- Features -->
 
