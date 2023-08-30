@@ -14,5 +14,4 @@ RSpec.describe 'User', type: :feature do
   before do
     sign_in user
   end
-
 end
