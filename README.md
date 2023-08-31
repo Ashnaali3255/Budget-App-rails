@@ -64,13 +64,13 @@
 
 the site is deployed below:
 
-<a href=" "> Check out the Live Demo here</a>
+<a href="https://budget-app-rails-b2ms.onrender.com "> Check out the Live Demo here</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Video
 
-<a href="<video src="video1348461781.mp4" controls title="Presentation"></video>">Illustration video</a>
+<a href="https://www.loom.com/share/1a61ae609b2c414d9787afb773016bc9?sid=235eb31d-cca0-4219-9cb1-d58e82e0f49e">Illustration video</a>
 
 <!-- Features -->
 
