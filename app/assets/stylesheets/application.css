@@ -1,0 +1,142 @@
+.center-text {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  font-family: cursive;
+  font-weight: 700;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+/* Custom styles for full-width buttons */
+.full-width-button {
+  width: 100%;
+  font-size: 20px;
+  border: none;
+  border-radius: 2px;
+  padding: 0.5em 0.5em;
+}
+
+.full-width-button-container {
+  width: 95%;
+}
+
+.btn-1 {
+  background-color: #3778c2;
+  color: white;
+}
+
+.btn-2 {
+  background-color: #e9ecf0;
+  color: #8e9399;
+}
+
+.btn-1:hover {
+  background-color: #659edf;
+}
+
+.btn-2:hover {
+  background-color: #d5d8db;
+}
+
+.fa-arrow-left::before {
+  background: #2988af;
+}
+
+.fixed-bottom {
+  position: fixed;
+  right: 194px;
+  bottom: 0;
+  left: 20px;
+  z-index: 1030;
+}
+
+.btn-welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+nav {
+  background-color: #3778c2;
+  color: white;
+}
+
+.nav-item-cat {
+  margin-left: 10rem;
+}
+
+.navbar-brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 7rem;
+  margin-top: -2rem;
+}
+
+.custom-toggler {
+  color: white;
+  background-color: white;
+}
+
+.btn-categories-add {
+  padding: 0.5em 1em;
+  width: 100%;
+  color: white;
+  border: 1px solid white;
+  border-radius: 3px;
+}
+
+.btn-success-category {
+  background-color: #5fb523;
+}
+
+.items_container {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  padding: 1em;
+  align-items: center;
+  font-weight: 400;
+}
+
+.links_on_login_page {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.links_on_login_page a {
+  text-decoration: none;
+  color: #d5d8db;
+}
+
+.img_container {
+  display: flex;
+  padding: 0.5em;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+  max-width: 100px;
+  min-width: 100px;
+}
+
+.img_container img {
+  width: 30%;
+}
+
+.btn-login {
+  background-color: #093f7c;
+  border: none;
+  color: white;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  a.nav-link.text-white {
+    transition: none;
+    display: none;
+  }
+}
