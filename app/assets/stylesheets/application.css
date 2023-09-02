@@ -39,6 +39,18 @@
   background-color: #d5d8db;
 }
 
+.fa-arrow-left:before {
+  background: #2988af;
+}
+
+.fixed-bottom{
+  position: fixed;
+  right: 194px;
+  bottom: 0;
+  left: 20px;
+  z-index: 1030;
+}
+
 .btn-welcome {
   display: flex;
   flex-direction: column;
@@ -51,6 +63,18 @@ nav {
   color: white;
 }
 
+.nav-item-cat{
+  margin-left: 10rem;
+}
+
+.navbar-brand{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 7rem;
+  margin-top: -2rem;
+}
+
 .custom-toggler {
   color: white;
   background-color: white;
@@ -58,7 +82,7 @@ nav {
 
 .btn-categories-add {
   padding: 0.5em 1em;
-  width: 80%;
+  width: 100%;
   color: white;
   border: 1px solid white;
   border-radius: 3px;
@@ -108,4 +132,11 @@ a {
   background-color: #093f7c;
   border: none;
   color: white;
+}
+
+@media (prefers-reduced-motion: reduce){
+a.nav-link.text-white {
+    transition: none;
+    display: none;
+}
 }
