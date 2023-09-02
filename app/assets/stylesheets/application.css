@@ -39,11 +39,11 @@
   background-color: #d5d8db;
 }
 
-.fa-arrow-left:before {
+.fa-arrow-left::before {
   background: #2988af;
 }
 
-.fixed-bottom{
+.fixed-bottom {
   position: fixed;
   right: 194px;
   bottom: 0;
@@ -63,11 +63,11 @@ nav {
   color: white;
 }
 
-.nav-item-cat{
+.nav-item-cat {
   margin-left: 10rem;
 }
 
-.navbar-brand{
+.navbar-brand {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -134,9 +134,9 @@ a {
   color: white;
 }
 
-@media (prefers-reduced-motion: reduce){
-a.nav-link.text-white {
+@media (prefers-reduced-motion: reduce) {
+  a.nav-link.text-white {
     transition: none;
     display: none;
-}
+  }
 }
