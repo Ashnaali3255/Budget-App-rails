@@ -43,7 +43,11 @@ RSpec.describe 'User', type: :feature do
 
   scenario 'It should create category' do
     visit root_path
-
+    click_button 'Create New Category'
+    fill_in 'Name', with: 'Burger king'
+    attach_file('category[icon]', Rails.root.join('spec/fixture/files/kfc.png'))
+    click_button 'Add category'
     expect(page).to have_current_path("#{Capybara.app_host}/categories")
+    expect(page).to have_content('Burger king')
   end
 end
